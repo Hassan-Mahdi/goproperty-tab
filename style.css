@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.myrow {
+  display: flex;
+  justify-content: center;
+}
+
+.mxx-3 {
+  margin: 0 15px;
+}
+
+@media (max-width: 1060px) {
+  .myrow {
+    flex-direction: column;
+  }
+  .mxx-3 {
+    margin: 15px 0 !important;
+  }
+}
+
+.Brows__heading {
+  padding: 10px 10px;
+}
+
+.line {
+  width: 100%;
+  height: .5px;
+  position: absolute;
+  left: 0;
+  top: 101px;
+  background-color: rgba(0, 0, 0, 0.3);;
+}
+
+.tab__head {
+  gap: 12px;
+  color: #1f1f1f;
+  font-weight: 700;
+}
+
+.tab__head i {
+  color: #00a651;
+  font-size: 21px;
+}
+
+.tab__head {
+  gap: 8px;
+  color: #1f1f1f;
+  font-weight: 700;
+  display: flex;
+  align-items: baseline;
+}
+
+.mycol {
+  width: 32%;
+  min-width: 331px;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 25px 10px;
+  border-radius: 10px;
+}
+
+.tab {
+  padding: 10px 0;
+}
+
+.tab button:hover {
+  color: #00a651;
+  border-bottom: 2px solid #00a651;
+}
+
+.tab button:active {
+  color: #00a651;
+}
+
+.tab button:focus {
+  border: none;
+  outline: none;
+  color: #00a651;
+  border-bottom: 2px solid #00a651;
+}
+
+.tablinks, .tablinksTwo, .tablinksThree {
+  border: none;
+  background: none;
+  color: #919699;
+  font-weight: 500;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  padding: 8px;
+  text-align: center;
+}
+
+.tablinks:active {
+  border: none;
+}
+
+.slide__items a {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabcontentTwo, .tabcontentThree {
+  display: none;
+}
+
+.carousel-indicators li {
+  background-color: #00a651;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  color: #00a651;
+}
+
+.carousel-indicators {
+  bottom: -42px;
+}
+
+.slide__items {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 5px 3px 0px 3px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.slide__items a {
+  color: #1f1f1f;
+}
+
+.slide__content {
+  display: flex;
+  justify-content: space-between;
+}
+
